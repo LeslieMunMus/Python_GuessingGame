@@ -6,7 +6,7 @@ os.system("clear")
 # You only have 3 chances and the number changes everytime the game is run
 
 
-def main():
+def guessFunction():
     secret_number = random.randint(0, 20)
     guess_count = 0
     guess_limit = 3
@@ -25,6 +25,10 @@ def main():
                 print("Sorry you lost!")
             else:
                 print("Sorry, try again champ!")
+
+
+def main():
+    guessFunction()
 
 
 if __name__ == "__main__":
