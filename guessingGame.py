@@ -3,7 +3,7 @@ import random
 
 os.system("clear")
 # Guess a random number between 0 and 20.
-# You only have 3 chances and the number changes everytime the game is runs
+# You only have 3 chances and the number changes everytime the game is run
 # If you guess it right, you get guess prize money
 # It will reveal the secret number in the end if you fail
 # Have FUN!!
